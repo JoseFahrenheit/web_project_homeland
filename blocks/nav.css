@@ -1,0 +1,38 @@
+.nav__logo {
+    width: 32px;
+    height: 32px;
+    margin-bottom: 22px;
+}
+
+.nav__logo-description {
+    width: 254.84px;
+    height: 14.94px;
+    margin-bottom: 91px;
+}
+
+@media screen and (min-width: 544px) and (max-width: 1023px) {
+    .nav__logo {
+        width: 32px;
+        height: 30.17px;
+        margin-bottom: 21px;
+    }
+
+    .nav__logo-description {
+        width: 254.84px;
+        height: 14.09px;
+        margin-bottom: 90px;
+    }
+}
+
+@media screen and (max-width: 543px) {
+    .nav__logo {
+        width: 23.69px;
+        height: 23.77px;
+    }
+
+    .nav__logo-description {
+        width: 188.62px;
+        height: 11.1px;
+        margin-bottom: 50px;
+    }
+}

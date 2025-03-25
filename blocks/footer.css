@@ -1,0 +1,33 @@
+.footer {
+    width: fit-content;
+    margin: 0 auto 40px;
+}
+
+.footer__copyright {
+    font-size: 14px;
+    line-height: 1.14;
+}
+
+@media screen and (min-width: 544px) and (max-width: 1023px) {
+    .footer {
+        width: fit-content;
+        margin: 0 auto 40px;
+    }
+
+    .footer__copyright {
+        font-size: 14px;
+        line-height: 1.14;
+    }
+}
+
+@media screen and (max-width: 543px) {
+    .footer {
+        width: fit-content;
+        margin: 0 auto 40px;
+    }
+
+    .footer__copyright {
+        font-size: 14px;
+        line-height: 1;
+    }
+  }
