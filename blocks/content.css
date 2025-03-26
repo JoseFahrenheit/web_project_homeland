@@ -6,30 +6,6 @@
     margin-bottom: 92px;
 }
 
-.content__title {
-    font-size: 54px;
-    line-height: 1.07;
-    margin-bottom: 20px;
-  }
-
-.content__quote {
-    font-size: 24px;
-    line-height: 1.42;
-    margin-bottom: 8px;
-}
-
-.content__author {
-    font-size: 24px;
-    line-height: 1.42;
-    text-align: right;
-    margin-bottom: 24px;
-}
-
-.content__subtitle {
-    font-size: 16px;
-    line-height: 1.63;
-}
-
 @media screen and (min-width: 544px) and (max-width: 1023px) {
     .content {
         color: white;
@@ -37,29 +13,6 @@
         height: 573px;
         margin-left: 24px;
         margin-bottom: 88px;
-    }
-
-    .content__title {
-        font-size: 45px;
-        line-height: 1.08;
-        margin-bottom: 50px;
-      }
-
-    .content__quote {
-        font-size: 24px;
-        line-height: 1.41;
-    }
-
-    .content__author {
-        font-size: 24px;
-        line-height: 1.41;
-        text-align: right;
-        margin-bottom: 32px;
-    }
-
-    .content__subtitle {
-        font-size: 16px;
-        line-height: 1.63;
     }
 }
 
@@ -70,29 +23,5 @@
         height: 1033px;
         margin-left: 16px;
         margin-bottom: 64px;
-    }
-
-    .content__title {
-        font-size: 32px;
-        line-height: 1.09;
-        margin-bottom: 40px;
-      }
-
-    .content__quote {
-        font-size: 24px;
-        line-height: 1.25;
-        margin-bottom: 10px;
-    }
-
-    .content__author {
-        font-size: 24px;
-        line-height: 1.41;
-        text-align: right;
-        margin-bottom: 32px;
-    }
-
-    .content__subtitle {
-        font-size: 16px;
-        line-height: 1.63;
     }
 }
