@@ -136,7 +136,8 @@
 }
 
 .place__frame_desktop:hover {
-  opacity: 0.25;
+  background-image: linear-gradient(#025ac0, #002f64);
+  transition: background-image 0.3s ease;
 }
 
 .place__frame_mobile {
@@ -281,7 +282,8 @@
   }
 
   .place__frame_desktop:hover {
-    opacity: 0.25;
+    background-image: linear-gradient(#025ac0, #002f64);
+    transition: background-image 0.3s ease;
   }
 
   .place__frame_mobile {
@@ -448,6 +450,7 @@
   }
 
   .place__frame_mobile:hover {
-    opacity: 0.25;
+    background-image: linear-gradient(#025ac0, #002f64);
+    transition: background-image 0.3s ease;
   }
 }
