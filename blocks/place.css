@@ -72,6 +72,7 @@
 .place__image {
   width: 460px;
   height: 460px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .place__image:hover {
@@ -216,6 +217,7 @@
   .place__image {
     width: 340px;
     height: 340px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   }
 
   .place__image:hover {
@@ -373,6 +375,7 @@
   .place__image {
     width: 320px;
     height: 320px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   }
 
   .place__image:hover {
