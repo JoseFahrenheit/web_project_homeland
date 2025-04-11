@@ -1,0 +1,447 @@
+.place {
+  width: 984px;
+  height: 756px;
+  margin-bottom: 80px;
+}
+
+.place__muramvya {
+  width: 984px;
+  height: 859px;
+  margin-bottom: 80px;
+}
+
+.place__header {
+  width: 956px;
+  height: 152px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 48px;
+}
+
+.place__title {
+  width: 460px;
+  height: 152px;
+  font-family: "Inter";
+  font-size: 72px;
+  font-weight: bold;
+  line-height: 1.05;
+  margin: 0;
+  padding: 0;
+}
+
+.place__website {
+  width: 456px;
+  height: 67px;
+  margin: 0;
+  padding: 0;
+}
+
+.place__website-item {
+  font-family: "Inter";
+  font-size: 12px;
+  font-weight: normal;
+  line-height: 1.5;
+  color: #AAAAAA;
+  margin-bottom: 8px;
+}
+
+.place__artist {
+  font-family: "Inter";
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 1.22;
+  margin: 0;
+}
+
+.place__main {
+  width: 984px;
+  height: 489px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.place__image-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 48px;
+  width: 460px;
+}
+
+.place__image {
+  width: 460px;
+  height: 460px;
+}
+
+.place__image:hover {
+  box-shadow: 10px 10px 10px #000;
+  opacity: 0.50;
+}
+
+
+.place__text {
+  max-width: 484px;
+}
+
+.place__paragraph {
+  width: 100%;
+  font-family: "Inter";
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 1.63;
+  margin: 0;
+}
+
+.place__paragraph_type_intro {
+  width: 100%;
+  font-family: "Inter";
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 1.63;
+  margin: 0;
+  margin-bottom: 25px;
+}
+
+.place__paragraph_type_final {
+  width: 100%;
+  font-family: "Inter";
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 1.63;
+  margin: 0;
+  margin-top: 25px;
+}
+
+.place__frame {
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 1.5;
+  color: white;
+  min-width: 289px;
+  height: 48px;
+  border-radius: 4px;
+  background-image: linear-gradient(#0278FE, #003A7B);
+  border: none;
+  padding: 0 24px;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: opacity 0.3s ease;
+}
+
+.place__frame:hover {
+  opacity: 0.25;
+}
+
+.place__frame_mobile {
+  display: none;
+}
+
+@media screen and (min-width: 544px) and (max-width: 1023px) {
+  .place {
+    width: 720px;
+    height: 635px;
+    margin-bottom: 72px;
+  }
+
+  .place__muramvya {
+    width: 720px;
+    height: 892px;
+    margin-bottom: 72px;
+  }
+
+  .place__header {
+    width: 720px;
+    height: 68px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 48px;
+  }
+
+  .place__title {
+    width: 340px;
+    height: 46px;
+    font-family: "Inter";
+    font-size: 42px;
+    font-weight: bold;
+    line-height: 1.09;
+    margin: 0;
+    padding: 0;
+  }
+
+  .place__website {
+    width: 352px;
+    height: 68px;
+    margin: 0;
+    padding: 0;
+  }
+
+  .place__website-item {
+    font-family: "Inter";
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 1.5;
+    color: #AAAAAA;
+    margin-bottom: 8px;
+  }
+
+  .place__artist {
+    font-family: "Inter";
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 1.22;
+    margin: 0;
+  }
+
+  .place__main {
+    width: 720px;
+    height: 519px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .place__image-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 48px;
+    width: 460px;
+  }
+
+  .place__image {
+    width: 340px;
+    height: 340px;
+  }
+
+  .place__image:hover {
+    box-shadow: 10px 10px 10px #000;
+    opacity: 0.50;
+  }
+
+
+  .place__text {
+    max-width: 352px;
+  }
+
+  .place__paragraph {
+    width: 100%;
+    font-family: "Inter";
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 1.63;
+    margin: 0;
+  }
+
+  .place__paragraph_type_intro {
+    width: 100%;
+    font-family: "Inter";
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 1.63;
+    margin: 0;
+    margin-bottom: 25px;
+  }
+
+  .place__paragraph_type_final {
+    width: 100%;
+    font-family: "Inter";
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 1.63;
+    margin: 0;
+    margin-top: 25px;
+  }
+
+  .place__frame {
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 1.5;
+    color: white;
+    min-width: 289px;
+    height: 48px;
+    border-radius: 4px;
+    background-image: linear-gradient(#0278FE, #003A7B);
+    border: none;
+    padding: 0 24px;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: opacity 0.3s ease;
+  }
+
+  .place__frame:hover {
+    opacity: 0.25;
+  }
+
+  .place__frame_mobile {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 543px) {
+  .places {
+    width: 320px;
+  }
+
+  .place {
+    width: 320px;
+    height: 1261px;
+    margin-bottom: 50px;
+  }
+
+  .place__muramvya {
+    width: 320px;
+    height: 1559px;
+    margin-bottom: 50px;
+  }
+
+  .place__header {
+    width: 284px;
+    height: 154px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 0 auto 30px;
+    margin-bottom: 30px;
+  }
+
+  .place__title {
+    width: 238px;
+    height: 35px;
+    font-family: "Inter";
+    font-size: 32px;
+    font-weight: bold;
+    line-height: 1.09;
+    margin: 0;
+    padding: 0;
+  }
+
+  .place__website {
+    width: 288px;
+    height: 89px;
+    margin: 0;
+    padding: 0;
+  }
+
+  .place__website-item {
+    font-family: "Inter";
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 1.5;
+    color: #AAAAAA;
+    margin-bottom: 8px;
+    margin: 0;
+  }
+
+  .place__artist {
+    font-family: "Inter";
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 1.22;
+    margin: 0;
+  }
+
+  .place__main {
+    display: grid;
+    grid-template-areas:
+      "image"
+      "text"
+      "button";
+    gap: 24px;
+    width: 320px;
+  }
+
+  .place__image-container {
+    grid-area: image;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    width: 320px;
+    margin: 0 auto;
+  }
+
+  .place__image {
+    width: 320px;
+    height: 320px;
+  }
+
+  .place__image:hover {
+    box-shadow: 10px 10px 10px #000;
+    opacity: 0.50;
+  }
+
+
+  .place__text {
+    grid-area: text;
+    width: 288px;
+    margin: 0 auto;
+  }
+
+  .place__paragraph {
+    width: 100%;
+    font-family: "Inter";
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 1.63;
+    margin: 0;
+  }
+
+  .place__paragraph_type_intro {
+    width: 100%;
+    font-family: "Inter";
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 1.63;
+    margin: 0;
+    margin-bottom: 25px;
+  }
+
+  .place__paragraph_type_final {
+    width: 100%;
+    font-family: "Inter";
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 1.63;
+    margin: 0;
+    margin-top: 25px;
+  }
+
+  .place__frame_desktop {
+    display: none;
+  }
+
+  .place__frame_mobile {
+    display: inline-flex;
+    grid-area: button;
+    justify-self: start;
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.5;
+    color: white;
+    width: 288px;
+    height: 48px;
+    border-radius: 4px;
+    background-image: linear-gradient(#0278FE, #003A7B);
+    border: none;
+    padding: 0;
+    margin: 0 auto;
+    cursor: pointer;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    transition: opacity 0.3s ease;
+  }
+
+  .place__frame_mobile:hover {
+    opacity: 0.25;
+  }
+}
