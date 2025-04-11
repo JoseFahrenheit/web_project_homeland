@@ -1,27 +1,29 @@
 .content {
     color: white;
     width: 830px;
-    height: 607px;
     margin-left: 148px;
     margin-bottom: 92px;
+    flex: 1;
 }
 
 @media screen and (min-width: 544px) and (max-width: 1023px) {
     .content {
         color: white;
         width: 720px;
-        height: 573px;
         margin-left: 24px;
         margin-bottom: 88px;
+        flex: 1;
     }
 }
 
 @media screen and (max-width: 543px) {
     .content {
-        color: white;
-        width: 288px;
-        height: 1033px;
-        margin-left: 16px;
-        margin-bottom: 64px;
+      flex-grow: 1;
+      box-sizing: border-box;
+      padding: 0 16px;
+      color: white;
+      margin: 0 auto;
+      width: 100%;
+      max-width: 720px;
     }
 }

@@ -1,6 +1,7 @@
 .footer {
     width: fit-content;
-    margin: 0 auto 40px;
+    margin: 0 auto 90px;
+    text-align: center;
 }
 
 .footer__copyright {
@@ -10,24 +11,35 @@
 
 @media screen and (min-width: 544px) and (max-width: 1023px) {
     .footer {
-        width: fit-content;
-        margin: 0 auto 40px;
+        width: 100%;
+        max-width: 720px;
+        margin: 0;
+        margin-top: 90px;
+        padding: 0 16px;
+        text-align: center;
+        box-sizing: border-box;
     }
 
     .footer__copyright {
         font-size: 14px;
         line-height: 1.14;
+        margin: 0;
     }
 }
 
 @media screen and (max-width: 543px) {
-    .footer {
-        width: fit-content;
-        margin: 0 auto 40px;
-    }
+  .footer {
+    width: 100%;
+    max-width: 720px;
+    padding: 0 16px;
+    text-align: center;
+    box-sizing: border-box;
+    margin-top: 65px;
+ }
 
-    .footer__copyright {
-        font-size: 14px;
-        line-height: 1;
-    }
+  .footer__copyright {
+    font-size: 14px;
+    line-height: 1;
+    margin: 0;
   }
+}
