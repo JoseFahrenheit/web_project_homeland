@@ -113,7 +113,7 @@
   margin-top: 25px;
 }
 
-.place__frame {
+.place__frame_desktop {
   font-family: "Inter", sans-serif;
   font-size: 18px;
   font-weight: normal;
@@ -133,7 +133,7 @@
   transition: opacity 0.3s ease;
 }
 
-.place__frame:hover {
+.place__frame_desktop:hover {
   opacity: 0.25;
 }
 
@@ -256,7 +256,7 @@
     margin-top: 25px;
   }
 
-  .place__frame {
+  .place__frame_desktop {
     font-family: "Inter", sans-serif;
     font-size: 18px;
     font-weight: normal;
@@ -276,7 +276,7 @@
     transition: opacity 0.3s ease;
   }
 
-  .place__frame:hover {
+  .place__frame_desktop:hover {
     opacity: 0.25;
   }
 
