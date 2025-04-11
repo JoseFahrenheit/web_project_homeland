@@ -123,7 +123,7 @@
   min-width: 289px;
   height: 48px;
   border-radius: 4px;
-  background-image: linear-gradient(#0278FE, #003A7B);
+  background-image: linear-gradient(180deg, #0278FE 0%, #003A7B 100%);
   border: none;
   padding: 0 24px;
   cursor: pointer;
@@ -131,13 +131,14 @@
   display: inline-flex;
   align-items: center;
   justify-content: center;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
   transition: opacity 0.3s ease;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .place__frame_desktop:hover {
-  background-image: linear-gradient(#025ac0, #002f64);
-  transition: background-image 0.3s ease;
+  background-image: linear-gradient(180deg, #0278FE 0%, #003A7B 25%);
 }
 
 .place__frame_mobile {
@@ -269,7 +270,7 @@
     min-width: 289px;
     height: 48px;
     border-radius: 4px;
-    background-image: linear-gradient(#0278FE, #003A7B);
+    background-image: linear-gradient(180deg, #0278FE 0%, #003A7B 100%);
     border: none;
     padding: 0 24px;
     cursor: pointer;
@@ -277,13 +278,14 @@
     display: inline-flex;
     align-items: center;
     justify-content: center;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
     transition: opacity 0.3s ease;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   }
 
   .place__frame_desktop:hover {
-    background-image: linear-gradient(#025ac0, #002f64);
-    transition: background-image 0.3s ease;
+    background-image: linear-gradient(180deg, #0278FE 0%, #003A7B 25%);
   }
 
   .place__frame_mobile {
@@ -426,31 +428,29 @@
   }
 
   .place__frame_mobile {
-    display: inline-flex;
-    grid-area: button;
-    justify-self: start;
     font-family: "Inter", sans-serif;
-    font-size: 14px;
+    font-size: 18px;
     font-weight: normal;
     line-height: 1.5;
     color: white;
-    width: 288px;
+    min-width: 289px;
     height: 48px;
     border-radius: 4px;
-    background-image: linear-gradient(#0278FE, #003A7B);
+    background-image: linear-gradient(180deg, #0278FE 0%, #003A7B 100%);
     border: none;
-    padding: 0;
-    margin: 0 auto;
+    padding: 0 24px;
     cursor: pointer;
     text-decoration: none;
+    display: inline-flex;
     align-items: center;
     justify-content: center;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
     transition: opacity 0.3s ease;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   }
 
   .place__frame_mobile:hover {
-    background-image: linear-gradient(#025ac0, #002f64);
-    transition: background-image 0.3s ease;
+    background-image: linear-gradient(180deg, #0278FE 0%, #003A7B 25%);
   }
 }
