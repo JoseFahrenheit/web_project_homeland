@@ -77,7 +77,7 @@
 }
 
 .place__image:hover {
-  opacity: 0.75;
+  opacity: 0.50;
 }
 
 
@@ -123,7 +123,7 @@
   min-width: 289px;
   height: 48px;
   border-radius: 4px;
-  background-image: linear-gradient(180deg, #0278FE 0%, #003A7B 100%);
+  background-image: linear-gradient(90deg, #0278fe 0%, #003a7b 99.98%);
   border: none;
   padding: 0 24px;
   cursor: pointer;
@@ -137,17 +137,12 @@
   transition: opacity 0.3s ease;
 }
 
-.place__frame_desktop::after {
-  content: "";
-  position: absolute;
-  inset: 0;
-  background-color: rgba(0, 0, 0, 0.25);
-  opacity: 0;
-  transition: opacity 0.3s ease;
-}
-
-.place__frame_desktop:hover::after {
-  opacity: 1;
+.place__frame_desktop:hover {
+  background-image: linear-gradient(
+    90deg,
+    rgba(2, 120, 254, 0.25) 0%,
+    rgba(0, 58, 123, 0.25) 99.98%
+  );
 }
 
 .place__frame_mobile {
@@ -233,7 +228,7 @@
   }
 
   .place__image:hover {
-    opacity: 0.75;
+    opacity: 0.50;
   }
 
 
@@ -279,7 +274,7 @@
     min-width: 289px;
     height: 48px;
     border-radius: 4px;
-    background-image: linear-gradient(180deg, #0278FE 0%, #003A7B 100%);
+    background-image: linear-gradient(90deg, #0278fe 0%, #003a7b 99.98%);
     border: none;
     padding: 0 24px;
     cursor: pointer;
@@ -293,17 +288,12 @@
     transition: opacity 0.3s ease;
   }
 
-  .place__frame_desktop::after {
-    content: "";
-    position: absolute;
-    inset: 0;
-    background-color: rgba(0, 0, 0, 0.25); /* Color negro 25% */
-    opacity: 0;
-    transition: opacity 0.3s ease;
-  }
-
-  .place__frame_desktop:hover::after {
-    opacity: 1;
+  .place__frame_desktop:hover {
+    background-image: linear-gradient(
+    90deg,
+    rgba(2, 120, 254, 0.25) 0%,
+    rgba(0, 58, 123, 0.25) 99.98%
+  );
   }
 
   .place__frame_mobile {
@@ -402,7 +392,7 @@
   }
 
   .place__image:hover {
-    opacity: 0.75;
+    opacity: 0.50;
   }
 
 
@@ -454,7 +444,7 @@
     min-width: 289px;
     height: 48px;
     border-radius: 4px;
-    background-image: linear-gradient(180deg, #0278FE 0%, #003A7B 100%);
+    background-image: linear-gradient(90deg, #0278fe 0%, #003a7b 99.98%);
     border: none;
     padding: 0 24px;
     cursor: pointer;
@@ -468,16 +458,11 @@
     transition: opacity 0.3s ease;
   }
 
-  .place__frame_mobile::after {
-    content: "";
-    position: absolute;
-    inset: 0;
-    background-color: rgba(0, 0, 0, 0.25); /* Color negro 25% */
-    opacity: 0;
-    transition: opacity 0.3s ease;
-  }
-
-  .place__frame_desktop:hover::after {
-    opacity: 1;
+  .place__frame_desktop:hover {
+    background-image: linear-gradient(
+    90deg,
+    rgba(2, 120, 254, 0.25) 0%,
+    rgba(0, 58, 123, 0.25) 99.98%
+  );
   }
 }
